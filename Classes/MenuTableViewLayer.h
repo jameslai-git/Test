@@ -17,10 +17,10 @@ class MenuTableViewLayer : public cocos2d::CCLayer, public cocos2d::extension::C
 {
 public:
     
-    std::list<ScoreRecord> *pScoreRecordList;
+    std::vector<ScoreRecord> *pScoreRecordVector;
     int cityId;
     
-    static MenuTableViewLayer* create(int cityId, std::list<ScoreRecord> *pScoreRecordList);
+    static MenuTableViewLayer* create(int cityId, std::vector<ScoreRecord> *pScoreRecordVector);
     virtual bool init();
 
     
@@ -30,6 +30,7 @@ public:
     virtual cocos2d::CCSize tableCellSizeForIndex(cocos2d::extension::CCTableView *table, unsigned int idx);
     virtual cocos2d::extension::CCTableViewCell* tableCellAtIndex(cocos2d::extension::CCTableView *table, unsigned int idx);
     virtual unsigned int numberOfCellsInTableView(cocos2d::extension::CCTableView *table);
+    
 };
 
 

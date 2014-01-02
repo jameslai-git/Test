@@ -13,9 +13,9 @@ class ScoreRecord{
 public:
     int rid;
     int level;
-    int stars;
     int score;
-    ScoreRecord(int iRid, int iLevel, int iStars, int iScore);
+    int stars;
+    ScoreRecord(int iRid, int iLevel, int iScore, int iStars);
 };
 
 #endif

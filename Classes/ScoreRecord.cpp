@@ -8,10 +8,10 @@
 
 #include "ScoreRecord.h"
 
-ScoreRecord::ScoreRecord(int iRid, int iLevel, int iStars, int iScore)
+ScoreRecord::ScoreRecord(int iRid, int iLevel, int iScore, int iStars)
 {
     rid = iRid;
     level = iLevel;
-    stars = iStars;
     score = iScore;
+    stars = iStars;
 }

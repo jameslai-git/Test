@@ -30,7 +30,7 @@ public:
 
     
 public:
-    MenuTableViewLayer* _menuLayer;
+    MenuTableViewLayer* _menuTableViewLayer;
 };
 
 

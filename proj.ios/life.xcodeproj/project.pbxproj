@@ -237,7 +237,6 @@
 		4C46F9FF1858CA4400BEEC68 /* level2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C46F9FB1858CA4400BEEC68 /* level2.png */; };
 		4C46FA001858CA4400BEEC68 /* lifeintro.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C46F9FC1858CA4400BEEC68 /* lifeintro.png */; };
 		4C46FA011858CA4400BEEC68 /* lifemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C46F9FD1858CA4400BEEC68 /* lifemenu.png */; };
-		4C46FA061858CBF500BEEC68 /* LifeLevel1Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C46FA021858CBF500BEEC68 /* LifeLevel1Scene.cpp */; };
 		4C97E4361859EABB000465F5 /* btn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C97E4321859EABB000465F5 /* btn1.png */; };
 		4C97E4371859EABB000465F5 /* btn2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C97E4331859EABB000465F5 /* btn2.jpg */; };
 		4C97E4381859EABB000465F5 /* m1down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C97E4341859EABB000465F5 /* m1down.png */; };
@@ -744,8 +743,6 @@
 		4C46F9FB1858CA4400BEEC68 /* level2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level2.png; sourceTree = "<group>"; };
 		4C46F9FC1858CA4400BEEC68 /* lifeintro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeintro.png; sourceTree = "<group>"; };
 		4C46F9FD1858CA4400BEEC68 /* lifemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifemenu.png; sourceTree = "<group>"; };
-		4C46FA021858CBF500BEEC68 /* LifeLevel1Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LifeLevel1Scene.cpp; path = ../Classes/LifeLevel1Scene.cpp; sourceTree = "<group>"; };
-		4C46FA031858CBF500BEEC68 /* LifeLevel1Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifeLevel1Scene.h; path = ../Classes/LifeLevel1Scene.h; sourceTree = "<group>"; };
 		4C97E4321859EABB000465F5 /* btn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn1.png; sourceTree = "<group>"; };
 		4C97E4331859EABB000465F5 /* btn2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btn2.jpg; sourceTree = "<group>"; };
 		4C97E4341859EABB000465F5 /* m1down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m1down.png; sourceTree = "<group>"; };
@@ -1288,8 +1285,6 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4C46FA021858CBF500BEEC68 /* LifeLevel1Scene.cpp */,
-				4C46FA031858CBF500BEEC68 /* LifeLevel1Scene.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				4C2F504E1871985C0042B141 /* ScoreRecord.h */,
@@ -1870,7 +1865,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A3D8FF1682F7D5002FB0C5 /* b2BroadPhase.cpp in Sources */,
-				4C46FA061858CBF500BEEC68 /* LifeLevel1Scene.cpp in Sources */,
 				15A3D9001682F7D5002FB0C5 /* b2CollideCircle.cpp in Sources */,
 				15A3D9011682F7D5002FB0C5 /* b2CollideEdge.cpp in Sources */,
 				15A3D9021682F7D5002FB0C5 /* b2CollidePolygon.cpp in Sources */,
